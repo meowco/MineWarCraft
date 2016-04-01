@@ -38,7 +38,6 @@
 - (void)suiyi{
     TabBarController *tabBar = [TabBarController new];
     [self presentViewController:tabBar animated:YES completion:nil];
-    NSLog(@"2333");
 }
 
 

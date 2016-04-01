@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Personal : UITableViewController
+@interface Personal : UINavigationController
 
 @end
