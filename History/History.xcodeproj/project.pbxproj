@@ -11,7 +11,8 @@
 		274FFF011C9E780800D98562 /* Strategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FFF001C9E780800D98562 /* Strategy.m */; };
 		274FFF041C9E783D00D98562 /* Forum.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FFF031C9E783D00D98562 /* Forum.m */; };
 		274FFF071C9E785D00D98562 /* Personal.m in Sources */ = {isa = PBXBuildFile; fileRef = 274FFF061C9E785D00D98562 /* Personal.m */; };
-		277D22DC1CAE7060007D9326 /* smallWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 277D22DB1CAE7060007D9326 /* smallWindow.m */; };
+		277D23221CAFB662007D9326 /* 兽人与人类.html in Resources */ = {isa = PBXBuildFile; fileRef = 277D23211CAFB662007D9326 /* 兽人与人类.html */; };
+		277D23241CAFC01C007D9326 /* 黑暗之潮.html in Resources */ = {isa = PBXBuildFile; fileRef = 277D23231CAFC01C007D9326 /* 黑暗之潮.html */; };
 		2796D05D1C9D7DDD00ED8485 /* HistoryOneBGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2796D05C1C9D7DDD00ED8485 /* HistoryOneBGViewController.m */; };
 		27A724D41CA56B9A00096182 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A724D31CA56B9A00096182 /* Media.xcassets */; };
 		27EE5B5F1C9D62B30014ADE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EE5B5E1C9D62B30014ADE0 /* main.m */; };
@@ -48,8 +49,8 @@
 		274FFF031C9E783D00D98562 /* Forum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forum.m; sourceTree = "<group>"; };
 		274FFF051C9E785D00D98562 /* Personal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Personal.h; sourceTree = "<group>"; };
 		274FFF061C9E785D00D98562 /* Personal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Personal.m; sourceTree = "<group>"; };
-		277D22DA1CAE7060007D9326 /* smallWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smallWindow.h; sourceTree = "<group>"; };
-		277D22DB1CAE7060007D9326 /* smallWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = smallWindow.m; sourceTree = "<group>"; };
+		277D23211CAFB662007D9326 /* 兽人与人类.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "兽人与人类.html"; sourceTree = "<group>"; };
+		277D23231CAFC01C007D9326 /* 黑暗之潮.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "黑暗之潮.html"; sourceTree = "<group>"; };
 		2796D05B1C9D7DDD00ED8485 /* HistoryOneBGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryOneBGViewController.h; sourceTree = SOURCE_ROOT; };
 		2796D05C1C9D7DDD00ED8485 /* HistoryOneBGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryOneBGViewController.m; sourceTree = SOURCE_ROOT; };
 		27A724D31CA56B9A00096182 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -125,14 +126,14 @@
 				274FFEFD1C9E751E00D98562 /* TabBarController.m */,
 				2796D05B1C9D7DDD00ED8485 /* HistoryOneBGViewController.h */,
 				2796D05C1C9D7DDD00ED8485 /* HistoryOneBGViewController.m */,
-				277D22DA1CAE7060007D9326 /* smallWindow.h */,
-				277D22DB1CAE7060007D9326 /* smallWindow.m */,
 				274FFEFF1C9E780800D98562 /* Strategy.h */,
 				274FFF001C9E780800D98562 /* Strategy.m */,
 				274FFF021C9E783D00D98562 /* Forum.h */,
 				274FFF031C9E783D00D98562 /* Forum.m */,
 				274FFF051C9E785D00D98562 /* Personal.h */,
 				274FFF061C9E785D00D98562 /* Personal.m */,
+				277D23231CAFC01C007D9326 /* 黑暗之潮.html */,
+				277D23211CAFB662007D9326 /* 兽人与人类.html */,
 				27EE5B6E1C9D62B30014ADE0 /* Info.plist */,
 				27EE5B931C9D63580014ADE0 /* 片头.mp4 */,
 				27A724D31CA56B9A00096182 /* Media.xcassets */,
@@ -271,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				27A724D41CA56B9A00096182 /* Media.xcassets in Resources */,
+				277D23241CAFC01C007D9326 /* 黑暗之潮.html in Resources */,
+				277D23221CAFB662007D9326 /* 兽人与人类.html in Resources */,
 				27EE5B941C9D63580014ADE0 /* 片头.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,7 +304,6 @@
 				27EE5B621C9D62B30014ADE0 /* AppDelegate.m in Sources */,
 				274FFF011C9E780800D98562 /* Strategy.m in Sources */,
 				274FFF041C9E783D00D98562 /* Forum.m in Sources */,
-				277D22DC1CAE7060007D9326 /* smallWindow.m in Sources */,
 				274FFEFE1C9E751E00D98562 /* TabBarController.m in Sources */,
 				27EE5B5F1C9D62B30014ADE0 /* main.m in Sources */,
 				2796D05D1C9D7DDD00ED8485 /* HistoryOneBGViewController.m in Sources */,
